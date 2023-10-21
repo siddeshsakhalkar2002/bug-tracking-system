@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(205, 203, 201);
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.row {
+    min-width: 50rem;
+    max-width: 80rem;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
