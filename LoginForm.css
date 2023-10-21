@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(205, 203, 201);
+}
+
+.row {
+    background-color: white;
+    border-radius: 30px;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.btn1 {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
